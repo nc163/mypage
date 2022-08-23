@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+/*  */
+
+.btn-active {
+  background-color: #61dafb;
+  color: white;
+}
+.btn-active:hover {
+  background-color: gold;
+}
