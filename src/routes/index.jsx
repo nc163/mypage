@@ -1,5 +1,4 @@
-import Expenses from "./expenses";
-import Invoices from "./invoices";
-import Testpage from "./testpage";
+import About from "./about";
+import BBS from "./bbs";
 
-export { Expenses, Invoices, Testpage };
+export { About, BBS };

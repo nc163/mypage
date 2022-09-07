@@ -1,4 +1,4 @@
-import logo from "./assets/images/logo.svg";
+import React from "react";
 import "./assets/css/App.css";
 import { Outlet, Link } from "react-router-dom";
 
@@ -6,11 +6,20 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Link to="/">Top</Link>
-        <Link to="/invoices">Invoices</Link>
-        <Link to="/expenses">Expenses</Link>
-        <Link to="/testpage">Testpage</Link>
+        <div className="flex">
+          <Link
+            className="flex-none w-64 h-14 text-blue-500 hover:text-blue-800"
+            to="/about"
+          >
+            About
+          </Link>
+          <Link
+            className="flex-none w-64 text-blue-500 hover:text-blue-800"
+            to="/bbs"
+          >
+            BBS
+          </Link>
+        </div>
       </header>
       <Outlet />
     </div>

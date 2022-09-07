@@ -1,6 +1,23 @@
 {
+  "files.autoSave": "off",
+  "editor.formatOnSave": true, // 保存時にフォーマット
+  "editor.formatOnType": true, // 入力中（改行時）にフォーマット
+  "editor.formatOnPaste": true, // ペースト時にフォーマット
+  "editor.wordWrap": "off",
   "files.exclude": {
     "**/node_modules": true,
     ".gitignore": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
   }
 }

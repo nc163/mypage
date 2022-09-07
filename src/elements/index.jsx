@@ -1,3 +1,3 @@
-import reportWebVitals from "./reportWebVitals";
+import ReportWebVitals from "./debug/ReportWebVitals";
 
-export { reportWebVitals };
+export { ReportWebVitals };
