@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { About, BBS } from "./routes";
+import { About, Memo, Test } from "./routes";
 import App from "./App.jsx";
 
 export default function Routing() {
@@ -8,7 +8,8 @@ export default function Routing() {
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="about" element={<About />} />
-          <Route path="bbs" element={<BBS />} />
+          <Route path="memo" element={<Memo />} />
+          <Route path="test" element={<Test />} />
         </Route>
       </Routes>
     </BrowserRouter>

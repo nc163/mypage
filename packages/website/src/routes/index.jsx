@@ -1,4 +1,5 @@
 import About from "./about";
-import BBS from "./bbs";
+import Memo from "./memo";
+import Test from "./test";
 
-export { About, BBS };
+export { About, Memo, Test };
