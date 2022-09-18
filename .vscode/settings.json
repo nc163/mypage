@@ -6,7 +6,8 @@
   "editor.wordWrap": "off",
   "files.exclude": {
     "**/node_modules": true,
-    ".gitignore": true
+    ".gitignore": true,
+    ".githooks": true
   },
   "[javascript]": {
     "editor.tabSize": 2,
