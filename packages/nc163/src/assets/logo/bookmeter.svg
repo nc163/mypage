@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 40 40">
+  <title>読書メーター</title>
+  <defs>
+    <style>.svg-bookmeter-color{fill:#64bc4b;}</style>
+  </defs>
+  <rect class="svg-bookmeter-color" y="26.96" width="10.74" height="17.19" />
+  <rect class="svg-bookmeter-color" x="14.53" y="14.34" width="10.74" height="29.81" />
+  <rect class="svg-bookmeter-color" x="29.28" y="1.75" width="10.74" height="42.4" />
+</svg>
