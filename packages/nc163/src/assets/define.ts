@@ -34,8 +34,7 @@ const WalletCardProps: CardProps = {
     title: "Wallet",
     items: [
         {
-            title: "Ethereum",
-            text: "nc163.eth",
+            title: "nc163.eth",
             logo: ethereumlogo
         },
     ]
@@ -46,13 +45,11 @@ const CommunityCardProps: CardProps = {
     items: [
         {
             title: "UNCHAIN",
-            logo: unchainlogo,
-            text: "UNCHAIN",
+            logo: unchainlogo
         },
         {
             title: "HENKAKU",
-            logo: henkakulogo,
-            text: "HENKAKU",
+            logo: henkakulogo
         },
     ]
 }

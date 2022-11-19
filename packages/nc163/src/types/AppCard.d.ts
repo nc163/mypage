@@ -1,11 +1,10 @@
 type CardProps = {
     title: string;
-    items: CardListItemProps[];
+    items: CardListProps[];
 }
 
-type CardListItemProps = {
+type CardListProps = {
     title: string;
     link?: string;
-    text?: string;
     logo: string;
 }

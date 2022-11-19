@@ -1,23 +1,24 @@
-import AppCard from "./elements/AppCard";
+import Card from "./elements/Card";
 import { SocialCardProps, WalletCardProps, CommunityCardProps } from "./assets/define"
 
 function App() {
+
   return (
     <div className="App">
         <main className='container'>
         <div className="row">
             <div className="col-sm mt-4">
-                <AppCard {...SocialCardProps} />
+                <Card {...SocialCardProps} />
             </div>
 
             <div className="col-sm mt-4">
-                <AppCard {...WalletCardProps} />
+                <Card {...WalletCardProps} />
             </div>
         </div>
 
         <div className="row">
             <div className="col-sm mt-4">
-                <AppCard {...CommunityCardProps} />
+                <Card {...CommunityCardProps} />
             </div>
         </div>
 
